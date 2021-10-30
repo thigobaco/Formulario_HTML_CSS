@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste da Kenzie</title>
+
+    <link rel="stylesheet" href="./ATIVIDADES KENZIE/css/style.css">
+
+   
+    
+</head>
+<body>
+    <h1>Teste Formulários</h1>
+<form>
+   <fieldset id="usuario"><legend>Dados para login</legend> 
+    <p><label for="seuemail"> E-mail:</label>         
+        <input type="email" name="email" id="seuemail" placeholder="Digite aqui"/> </p>
+
+    <p><label for="campodaSenha" >Senha: <input type="password" name="senha" id="campodaSenha" placeholder="Digite aqui"/></p></label>
+
+</fieldset> 
+
+   <fieldset id="dados pessoais"><legend>Dados pessoais</legend>
+
+    <p><label for="campoNome">Nome:<input type="text" name="nomeTexto" id="campoNome" size="20" maxlength="30" placeholder="Primeiro Nome"/> </p></label> 
+
+    <p><label for="campoSobrenome" > Sobrenome: <input type="text" name="SobrenomeTexto" id="campoSobrenome"size="20" maxlength="30" placeholder="Segundo Nome" /></p></label>
+
+   <fieldset id="sexo">
+       
+    <legend>Sexo</legend>
+        <input type="radio" name="sexo" id="campoMasc" checked/> <label for="campoMasc">Masculino</label><br/>
+        <input type="radio" name="sexo" id="campoFem" /> <label for="campoFem">Feminino</label><br/>
+        <input type="radio" name="sexo" id="campoOutro" /> <label for="campoOutro">Outro</label>
+</fieldset>
+
+    CPF
+    <p>Telefone</p>
+    <p> <label for="suaData" > Data de Nascimento: <input type= "date" name="nascimento" id= "suaData"/> </p></label>
+</fieldset>
+
+    <fieldset ><legend>Endereço</legend>
+
+    <p><label for="campoRua">Rua:<input type="text" name="nomeRua" id="campoRua" size="20" maxlength="30" placeholder="Digite aqui"/> </p></label> 
+
+    <p><label for="campoNum"> Número: <input type="number" name="numero" id="campoNum" min="0" max="9999" placeholder="Num"/> </input> </p></label>
+    
+    <p><label for="campoBairro"> Bairro: <input type="bairro" name="bairro" id="campoBairro" size="13" maxlength="20" placeholder="Bairro"> </p></label>   
+    
+     
+    <p><label for="cep"> CEP:
+		<input id="cep" type="text" required/></p></label>
+        
+    <p><label for="campoCidade"> Cidade: <input type="cidade" name="ncidade" id="campoCidade" size="13" maxlength="20" placeholder="Qual a Cidade?"> </p></label>
+    
+    <p><label for="cEst"> Estado:</p></label>
+    <select name="estados-brasil" id="cEst">
+        <option value="AC">Acre</option>
+        <option value="AL">Alagoas</option>
+        <option value="AP">Amapá</option>
+        <option value="AM">Amazonas</option>
+        <option value="BA">Bahia</option>
+        <option value="CE">Ceará</option>
+        <option value="DF">Distrito Federal</option>
+        <option value="ES">Espírito Santo</option>
+        <option value="GO">Goiás</option>
+        <option value="MA">Maranhão</option>
+        <option value="MT">Mato Grosso</option>
+        <option value="MS">Mato Grosso do Sul</option>
+        <option value="MG">Minas Gerais</option>
+        <option value="PA">Pará</option>
+        <option value="PB">Paraíba</option>
+        <option value="PR">Paraná</option>
+        <option value="PE">Pernambuco</option>
+        <option value="PI">Piauí</option>
+        <option value="RJ">Rio de Janeiro</option>
+        <option value="RN">Rio Grande do Norte</option>
+        <option value="RS">Rio Grande do Sul</option>
+        <option value="RO">Rondônia</option>
+        <option value="RR">Roraima</option>
+        <option value="SC">Santa Catarina</option>
+        <option value="SP">São Paulo</option>
+        <option value="SE">Sergipe</option>
+        <option value="TO">Tocantins</option>
+    </select>
+</fieldset> 
+   
+</form>
+
+             
+          
+    
+</body>
+</html>
